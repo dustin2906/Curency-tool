@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Currency conventor</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/curency.css" rel="stylesheet">
+    <!-- Javascript -->
+    <script src="js/currency.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    
+
+  </head>
+
+  <body id="page-top">
+    
+    
+    <header class="bg-primary text-white">
+      <div class="container text-center">
+        <h1>Welcome to Currency convertor</h1>
+      </div>
+    </header>
+
+    <section id="about">
+      <div id="box">
+      <div class="container" class="middle">
+        <div class="row mystyle">
+          <div class="col-md-6 col-md-offset-3">
+            <div class="panel panel-primary text-center ">
+              <div class="panel-heading">
+                <h4 class="panel-title">Currency Converter</h4>
+              </div>
+              <div class="error">
+                Please enter numeric value
+              </div>
+              <div class="panel-body">
+                <form name="converter">
+                  <table>
+                  <tr>
+                  <td>Euro: </td><td><input type="text" name="euro" onChange="euroConverter()" /></td>
+                  </tr>
+                  <tr>
+                  <td>US Dollar: </td><td><input type="text" name="dollar" onChange="dollarConverter()" /></td>
+                  </tr>
+                  <tr>
+                  <td>British Pound:</td><td><input type="text" name="pound" onChange="poundConverter()" /></td>
+                  </tr>
+                  <tr>
+                  <td>Australia Dollars: </td><td><input type="text" name="aud" onChange="ausConverter()" /></td>
+                  </tr>
+                  <td>Viet Nam Dong: </td><td><input type="text" name="vnd" onChange="vndConverter()" /></td>
+                  </tr>
+                  <tr>
+                  <td colspan="2"><input type="button" value="Convert!" /></td>
+                  </tr>
+                  </table>
+                  </form>
+
+          
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Duc Ngo A1702202 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+  </body>
+
+</html>
